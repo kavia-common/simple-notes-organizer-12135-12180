@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <TopNav />
-    <NuxtPage />
-  </div>
+  <!-- Root app template delegates chrome to the default layout -->
+  <NuxtRouteAnnouncer />
+  <NuxtPage />
 </template>
 
 <script setup lang="ts">

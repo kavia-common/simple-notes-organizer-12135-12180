@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { onMounted, reactive, watch } from 'vue'
 import { useNotesState } from '@/composables/useNotesApi'
+import StateMessage from '@/components/StateMessage.vue'
 
 const {
   notes, loading, selectedId, selectedNote, search,
